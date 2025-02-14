@@ -15,7 +15,7 @@ public class ChromeLaunch {
 		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\sasi.kumar\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		
 		
-		 new ChromeDriver();
+	 new ChromeDriver();
 
 	}
 
