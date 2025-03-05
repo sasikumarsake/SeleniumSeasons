@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-05T12:42:10 IST" name="Default suite" finished-at="2025-03-05T12:42:10 IST" duration-ms="77">
+    <groups>
+    </groups>
+    <test started-at="2025-03-05T12:42:10 IST" name="Default test" finished-at="2025-03-05T12:42:10 IST" duration-ms="77">
+      <class name="testng.AdactinHotelApp">
+        <test-method signature="abcTest()[pri:1, instance:testng.AdactinHotelApp@3270d194]" started-at="2025-03-05T12:42:10 IST" name="abcTest" finished-at="2025-03-05T12:42:10 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abcTest -->
+        <test-method signature="registrationTest()[pri:1, instance:testng.AdactinHotelApp@3270d194]" started-at="2025-03-05T12:42:10 IST" name="registrationTest" finished-at="2025-03-05T12:42:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method signature="changePasswordTest()[pri:0, instance:testng.AdactinHotelApp@3270d194]" started-at="2025-03-05T12:42:10 IST" name="changePasswordTest" finished-at="2025-03-05T12:42:10 IST" depends-on-methods="testng.AdactinHotelApp.registrationTest" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTest -->
+      </class> <!-- testng.AdactinHotelApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
