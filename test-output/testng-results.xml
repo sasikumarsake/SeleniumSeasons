@@ -2,24 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-05T12:42:10 IST" name="Default suite" finished-at="2025-03-05T12:42:10 IST" duration-ms="77">
+  <suite started-at="2025-03-05T19:39:41 IST" name="Default suite" finished-at="2025-03-05T19:40:09 IST" duration-ms="28189">
     <groups>
     </groups>
-    <test started-at="2025-03-05T12:42:10 IST" name="Default test" finished-at="2025-03-05T12:42:10 IST" duration-ms="77">
-      <class name="testng.AdactinHotelApp">
-        <test-method signature="abcTest()[pri:1, instance:testng.AdactinHotelApp@3270d194]" started-at="2025-03-05T12:42:10 IST" name="abcTest" finished-at="2025-03-05T12:42:10 IST" duration-ms="11" status="PASS">
+    <test started-at="2025-03-05T19:39:41 IST" name="Default test" finished-at="2025-03-05T19:40:09 IST" duration-ms="28189">
+      <class name="testng.AdactinHotelApp2">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:39:41 IST" name="StartBrowser" finished-at="2025-03-05T19:39:47 IST" duration-ms="5407" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- abcTest -->
-        <test-method signature="registrationTest()[pri:1, instance:testng.AdactinHotelApp@3270d194]" started-at="2025-03-05T12:42:10 IST" name="registrationTest" finished-at="2025-03-05T12:42:10 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- StartBrowser -->
+        <test-method signature="LoginTest()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:39:47 IST" name="LoginTest" finished-at="2025-03-05T19:39:51 IST" duration-ms="4647" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationTest -->
-        <test-method signature="changePasswordTest()[pri:0, instance:testng.AdactinHotelApp@3270d194]" started-at="2025-03-05T12:42:10 IST" name="changePasswordTest" finished-at="2025-03-05T12:42:10 IST" depends-on-methods="testng.AdactinHotelApp.registrationTest" duration-ms="2" status="PASS">
+        </test-method> <!-- LoginTest -->
+        <test-method signature="SearchHotelTest()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:39:51 IST" name="SearchHotelTest" finished-at="2025-03-05T19:40:04 IST" depends-on-methods="testng.AdactinHotelApp2.LoginTest" duration-ms="12334" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- changePasswordTest -->
-      </class> <!-- testng.AdactinHotelApp -->
+        </test-method> <!-- SearchHotelTest -->
+        <test-method signature="BookAHotelTest()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:40:04 IST" name="BookAHotelTest" finished-at="2025-03-05T19:40:09 IST" depends-on-methods="testng.AdactinHotelApp2.SearchHotelTest" duration-ms="5518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookAHotelTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:40:09 IST" name="CloseBrowser" finished-at="2025-03-05T19:40:09 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testng.AdactinHotelApp2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
