@@ -75,6 +75,7 @@ public class AdactinHotelApp2 {
 		driver.manage().window().maximize();
 	}
 	
+
 	@AfterClass
 	public void CloseBrowser()
 	{

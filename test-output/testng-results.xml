@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-05T19:39:41 IST" name="Default suite" finished-at="2025-03-05T19:40:09 IST" duration-ms="28189">
+  <suite started-at="2025-03-12T16:03:13 IST" name="Default suite" finished-at="2025-03-12T16:03:38 IST" duration-ms="25068">
     <groups>
     </groups>
-    <test started-at="2025-03-05T19:39:41 IST" name="Default test" finished-at="2025-03-05T19:40:09 IST" duration-ms="28189">
-      <class name="testng.AdactinHotelApp2">
-        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:39:41 IST" name="StartBrowser" finished-at="2025-03-05T19:39:47 IST" duration-ms="5407" status="PASS">
+    <test started-at="2025-03-12T16:03:13 IST" name="Default test" finished-at="2025-03-12T16:03:38 IST" duration-ms="25068">
+      <class name="assignments.DoubleClick">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:assignments.DoubleClick@3590fc5b]" started-at="2025-03-12T16:03:13 IST" name="SetUp" finished-at="2025-03-12T16:03:16 IST" duration-ms="3451" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StartBrowser -->
-        <test-method signature="LoginTest()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:39:47 IST" name="LoginTest" finished-at="2025-03-05T19:39:51 IST" duration-ms="4647" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method signature="doubleClickTest()[pri:0, instance:assignments.DoubleClick@3590fc5b]" started-at="2025-03-12T16:03:16 IST" name="doubleClickTest" finished-at="2025-03-12T16:03:38 IST" duration-ms="21355" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method signature="SearchHotelTest()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:39:51 IST" name="SearchHotelTest" finished-at="2025-03-05T19:40:04 IST" depends-on-methods="testng.AdactinHotelApp2.LoginTest" duration-ms="12334" status="PASS">
+        </test-method> <!-- doubleClickTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:assignments.DoubleClick@3590fc5b]" started-at="2025-03-12T16:03:38 IST" name="TearDown" finished-at="2025-03-12T16:03:38 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchHotelTest -->
-        <test-method signature="BookAHotelTest()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:40:04 IST" name="BookAHotelTest" finished-at="2025-03-05T19:40:09 IST" depends-on-methods="testng.AdactinHotelApp2.SearchHotelTest" duration-ms="5518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BookAHotelTest -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testng.AdactinHotelApp2@10683d9d]" started-at="2025-03-05T19:40:09 IST" name="CloseBrowser" finished-at="2025-03-05T19:40:09 IST" duration-ms="227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- testng.AdactinHotelApp2 -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- assignments.DoubleClick -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
