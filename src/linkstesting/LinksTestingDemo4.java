@@ -20,7 +20,7 @@ WebDriver driver= new ChromeDriver();
 		
 		//Collecting the links through the webelement store
 		
-		WebElement block=driver.findElement(By.xpath("//div[text()='Make Money with Us']/parent::div"));
+		WebElement block=driver.findElement(By.xpath("//div[@class='navFooterLinkCol navAccessibility']/child::div[text()='Make Money with Us']"));
 		
 		List<WebElement> allLinks=block.findElements(By.tagName("a"));
 		

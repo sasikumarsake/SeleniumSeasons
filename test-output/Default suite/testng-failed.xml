@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignments.DoubleClick">
+      <class name="extratopics.SalesForceShadowDOM">
         <methods>
-          <include name="TearDown"/>
-          <include name="doubleClickTest"/>
-          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testLoginAndClickSalesforce"/>
         </methods>
-      </class> <!-- assignments.DoubleClick -->
+      </class> <!-- extratopics.SalesForceShadowDOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
