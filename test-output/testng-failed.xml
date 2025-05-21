@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javascriptexecutorandscreenshots.JavaScriptExecutor">
+      <class name="miscellenousactions.DragandDrop">
         <methods>
-          <include name="setUp"/>
-          <include name="teardown"/>
-          <include name="dragAndDropTest"/>
+          <include name="TearDown"/>
+          <include name="dragandDropTest"/>
+          <include name="SetUp"/>
         </methods>
-      </class> <!-- javascriptexecutorandscreenshots.JavaScriptExecutor -->
+      </class> <!-- miscellenousactions.DragandDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
